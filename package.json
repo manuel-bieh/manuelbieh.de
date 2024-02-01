@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
-    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -40,13 +39,12 @@
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-typescript-sort-keys": "^3.1.0",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "postcss": "^8.4.0",
     "postcss-custom-media": "^10.0.2",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-nested": "^6.0.1",
     "postcss-preset-env": "^9.3.0",
     "prettier": "^3.2.4",
-    "sharp": "^0.33.2",
-    "typescript": "^5",
-    "url-loader": "^4.1.1"
+    "typescript": "^5"
   }
 }

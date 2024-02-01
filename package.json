@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@manuel-bieh/cv": "^1.0.17",
-    "@manuel-bieh/design-system": "^0.0.6",
+    "@manuel-bieh/design-system": "^0.0.7",
     "i18next": "^23.8.1",
     "next": "14.1.0",
     "next-i18next": "^15.2.0",

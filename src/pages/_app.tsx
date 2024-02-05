@@ -7,6 +7,7 @@ import { Grid, Column } from '@manuel-bieh/design-system';
 import css from '@/styles/Layout.module.css';
 import PageHeader from '@/components/PageHeader';
 import PageFooter from '@/components/PageFooter';
+// import '@/styles/Overrides.css';
 
 const App = ({ Component, pageProps }: AppProps) => (
     <div className={css.pageWrapper}>

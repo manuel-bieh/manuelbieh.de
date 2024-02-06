@@ -26,15 +26,16 @@
     "home": {
         "title": "Hallo!",
         "text": [
-            "Mein Name ist <strong>Manuel Bieh</strong> und ich lebe und arbeite in <strong>Berlin</strong> als <strong>Freelance Web-Entwickler und Berater</strong> mit den Schwerpunkten <strong>Frontend</strong> und <strong>JavaScript</strong>, insbesondere <strong>React</strong> und <strong>Node.js</strong>.",
+            "Mein Name ist <strong>Manuel Bieh</strong> und ich lebe und arbeite in <strong>Berlin</strong> als <strong>Freelance Fullstack Developer und Berater</strong> mit den Schwerpunkten <strong>Frontend</strong> und <strong>TypeScript</strong>, insbesondere <strong>React, React Native</strong> und <strong>Node.js</strong>.",
             "Ich bin tätig für die <1>weltbesten Kunden</1>, nutze dabei (meistens) die <3>angesagtesten Technologien</3> und veröffentlichte in der Vergangenheit bereits den einen oder anderen kurzen (und manchmal auch langen) <5>Text</5>.",
             "Bei spannenden Projekten kann man mich immer gern anfragen, ich unterstütze Sie dabei u.A. bei den folgenden Themen:",
             "Für Projekte die regelmäßige Anwesenheit vor Ort erfordern bin ich derzeit nur in Berlin verfügbar!"
         ],
         "services": [
-            "JavaScript-/Frontend Entwicklung",
-            "Konzeption und Entwicklung von Frontend-Architektur",
+            "TypeScript-/Frontend Entwicklung (React, React Native, Node.js)",
+            "Konzeption und Entwicklung von Software-Architektur",
             "Setup und Optimierung von Entwicklungsprozessen",
+            "Brownfield-Refactoring",
             "Interim CTO, Interim Team Lead",
             "Mentoring"
         ]

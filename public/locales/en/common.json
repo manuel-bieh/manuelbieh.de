@@ -26,15 +26,16 @@
     "home": {
         "title": "Hello!",
         "text": [
-            "My name is <strong>Manuel Bieh</strong> and I live and work in <strong>Berlin</strong> as <strong>Freelance Web Developer and Consultant</strong> with the focus on <strong>Frontend</strong> and <strong>JavaScript</strong>, in particular <strong>React</strong> and <strong>Node.js</strong>.",
-            "I'm working for the <1>best clients in the world</1>, using (mostly) the <3>best technologies</3> and in the past I also published some short (and sometimes also long) <5>texts</5> (in German only).</p>",
+            "My name is <strong>Manuel Bieh</strong> and I live and work in <strong>Berlin</strong> as <strong>Freelance Fullstack Developer and Consultant</strong> with the focus on <strong>Frontend</strong> and <strong>TypeScript</strong>, in particular <strong>React, React Native</strong> and <strong>Node.js</strong>.",
+            "I'm working for the <1>best clients in the world</1>, using (mostly) the <3>most cutting-edge technologies</3> and in the past I also published some short (and sometimes also long) <5>texts</5>.</p>",
             "For exciting projects you can always ask me if I'm currently available for hire. I can provide you with support for the following topics:",
             "For on-site projects I'm currently only available in Berlin!"
         ],
         "services": [
-            "JavaScript-/Frontend Development (React focused)",
-            "Conception and implementation of Frontend Architecture",
-            "Setup and Optimization of Development Workflows and Processes",
+            "TypeScript-/Frontend Development (React, React Native, Node.js)",
+            "Conception and implementation of software architecture",
+            "Setup and optimization of development workflows and processes",
+            "Brownfield refactoring",
             "Interim CTO, Interim Team Lead",
             "Mentoring"
         ]

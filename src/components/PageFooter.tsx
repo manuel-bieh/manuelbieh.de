@@ -2,11 +2,12 @@ import { Grid, Column, Footer, SocialMediaIcons } from '@manuel-bieh/design-syst
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import React from 'react';
+import css from './PageFooter.module.css';
 
 const PageFooter = () => {
     const { t } = useTranslation();
     return (
-        <Footer>
+        <Footer className={css.wrapper}>
             <Grid centered>
                 <Column xs={12} textAlign="center">
                     <p>

@@ -1,26 +1,20 @@
-// import '@/styles/globals.css';
 import '@manuel-bieh/design-system/dist/index.css';
+import '@manuel-bieh/design-system/dist/variables.css';
 import '@/styles/Layout.css';
+
 import type { AppProps } from 'next/app';
 import { appWithTranslation } from 'next-i18next';
-import { Grid, Column } from '@manuel-bieh/design-system';
-import css from '@/styles/Layout.module.css';
-import PageHeader from '@/components/PageHeader';
-import PageFooter from '@/components/PageFooter';
-// import '@/styles/Overrides.css';
+import { Page } from '@/types/page';
+import main from '@/layouts/main';
 
-const App = ({ Component, pageProps }: AppProps) => (
-    <div className={css.pageWrapper}>
-        <PageHeader />
-        <Grid className={css.pageContent} centered>
-            <Column>
-                <main>
-                    <Component {...pageProps} />
-                </main>
-            </Column>
-        </Grid>
-        <PageFooter />
-    </div>
-);
+type Props = AppProps & {
+    Component: Page;
+};
+
+const App = ({ Component, pageProps }: Props) => {
+    const getLayout = Component.getLayout ?? main;
+
+    return getLayout(<Component {...pageProps} />);
+};
 
 export default appWithTranslation(App);

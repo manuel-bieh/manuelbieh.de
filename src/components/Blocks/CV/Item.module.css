@@ -1,0 +1,66 @@
+/* @import url('~@manuel-bieh/ui/dist/es/variables.css'); */
+@import 'shared.css';
+
+/* footer {
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+} */
+
+div.item:after,
+tr.item td:after {
+    border-bottom: var(--border);
+    border-color: var(--border-color);
+    content: '';
+    display: block;
+    height: 0px;
+    margin: var(--margin-v) auto;
+    width: var(--width);
+}
+
+.item h1 {
+    font-size: 28px;
+    padding-left: 24px;
+    z-index: 1;
+    &:after {
+        font-size: 44px;
+    }
+}
+
+.item {
+    page-break-inside: avoid;
+}
+
+.item:first-child {
+    margin-top: 16px;
+}
+
+.item:last-child {
+    margin-bottom: 16px;
+}
+
+.item:last-child:after {
+    display: none;
+}
+
+.item img {
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-top: 0px;
+    width: 96px;
+}
+
+p.meta {
+    margin-bottom: 8px;
+}
+
+.company {
+    font-size: 1.9rem;
+}
+
+.role {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+}

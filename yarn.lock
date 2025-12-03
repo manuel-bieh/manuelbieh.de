@@ -350,10 +350,10 @@
   resolved "https://registry.yarnpkg.com/@manuel-bieh/cv/-/cv-1.0.17.tgz#9e8f2fb3fad158526d197903259b8781533715fe"
   integrity sha512-6bmosiXfHraB5GbK9yfJpGn+aQMjdeIcqFxFvLrio0zHNn5UeJ3ciUob57nQzCxYXcLExNhyFgsO0RpKLn505A==
 
-"@manuel-bieh/design-system@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@manuel-bieh/design-system/-/design-system-0.0.8.tgz#8577523569fe15e1a58b9711caf838d5f2bf05c6"
-  integrity sha512-VhYWBtqCeX8PeSGf0o7DJ9RqFucPoA/eIJFiVHJGj7WLhTcv6lawczT4L22vErypR0g6D7Xs0G/vZMI2ulVHBg==
+"@manuel-bieh/design-system@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@manuel-bieh/design-system/-/design-system-0.0.14.tgz#fd9207283063c040b87ad10c6ca95fb1049978e7"
+  integrity sha512-l4Buv6571VWq9+2ecOCMgxwJUhiAWBY+WsaoQmr46s1VX/pz2iZAYpU69/mY7/lCxPH5ijqN2lAUHsMxs5DFYA==
 
 "@next/env@14.1.0":
   version "14.1.0"
@@ -908,6 +908,11 @@ chalk@^4.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+classnames@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
 client-only@0.0.1:
   version "0.0.1"

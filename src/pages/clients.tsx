@@ -16,6 +16,7 @@ export default function Clients() {
             <Grid>
                 <Column>
                     <h1>{t('clients.title')}</h1>
+                    {t('cv.content.time.since')}
                 </Column>
             </Grid>
             <Grid>

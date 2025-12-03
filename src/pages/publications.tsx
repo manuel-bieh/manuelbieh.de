@@ -84,7 +84,7 @@ export default function Home() {
                         schließlich konzipiert werden soll.
                     </p>
                     <p>
-                        <strong>Galileo Press, Bonn, ISBN 978-3836211536, 302 Seiten, Juni 2008</strong>
+                        <strong>Galileo Computing, Bonn, ISBN 978-3836211536, 302 Seiten, Juni 2008</strong>
                     </p>
                 </Column>
             </Grid>
@@ -101,7 +101,7 @@ export default function Home() {
                     />
                 </Column>
                 <Column xs={12} md={8} lg={9} xl={10}>
-                    <h4>Webmaking Magazin, Ausgabe 12/11</h4>
+                    <h4>Webmaking Magazin, Ausgabe 12/2011</h4>
                     <h3>Interview: Webdesign-Trends 2012</h3>
                     <p>
                         <strong>Was werden Ihrer Meinung nach die Trends im Webdesign 2012?</strong>
@@ -122,7 +122,7 @@ export default function Home() {
                     />
                 </Column>
                 <Column xs={12} md={8} lg={9} xl={10}>
-                    <h4>Internet Intern, Ausgabe 02/11.</h4>
+                    <h4>Internet Intern, Ausgabe 02/2011.</h4>
                     <h3>Interview: Mobiles Webdesign</h3>
                     <p>
                         <strong>
@@ -166,7 +166,7 @@ export default function Home() {
                     />
                 </Column>
                 <Column xs={12} md={8} lg={9} xl={10}>
-                    <h4>Webstandards-Magazin, Ausgabe 11/11.</h4>
+                    <h4>Webstandards-Magazin, Ausgabe 11/2011.</h4>
                     <h3>Mobile Möglichkeiten – Tools für die Entwicklung mobiler Webseiten</h3>
                     <p>
                         Wer heute eine mobile Webseite erstellen möchte, wird vor eine Vielzahl von Entscheidungen

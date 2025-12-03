@@ -1,5 +1,5 @@
 // @flow
-// import { Grid, Column } from '@manuel-bieh/ui/dist/es';
+// import { Grid, Column } from '@manuel-bieh/design-system';
 import * as React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';

@@ -16,7 +16,7 @@ const PageFooter = () => {
                         <Link href="/legal">{t('footer.legal')}</Link> |{' '}
                         <Link href="/contact">{t('footer.contact')}</Link>
                     </p>
-                    <SocialMediaIcons />
+                    <SocialMediaIcons hidden={['instagram', 'stackoverflow']} />
                 </Column>
             </Grid>
         </Footer>

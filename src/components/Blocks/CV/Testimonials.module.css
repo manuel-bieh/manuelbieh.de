@@ -1,0 +1,18 @@
+.wrapper {
+    page-break-before: always;
+    page-break-inside: avoid;
+    img {
+        margin-bottom: 44px;
+        width: 80px;
+    }
+}
+/*
+.wrapper:after {
+    border-bottom: var(--border);
+    border-color: var(--border-color);
+    content: '';
+    display: block;
+    height: 0px;
+    margin: 8px auto 20px auto;
+    width: var(--width);
+} */

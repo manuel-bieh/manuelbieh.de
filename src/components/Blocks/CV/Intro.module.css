@@ -1,0 +1,20 @@
+@import 'shared.css';
+
+tr.wrapper td:after,
+div.wrapper:after {
+    border-bottom: var(--border);
+    border-color: var(--border-color);
+    content: '';
+    display: block;
+    height: 0px;
+    margin: var(--margin-v) auto;
+    width: var(--width);
+}
+
+.reduceMargin {
+    margin: -12px auto -16px auto;
+}
+
+.icon img {
+    vertical-align: -65%;
+}

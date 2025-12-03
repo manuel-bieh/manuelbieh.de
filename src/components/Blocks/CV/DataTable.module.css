@@ -1,0 +1,7 @@
+.wrapper {
+    page-break-inside: avoid;
+}
+
+.cell01 {
+    width: 96px;
+}

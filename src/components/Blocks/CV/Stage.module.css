@@ -1,0 +1,30 @@
+@import 'shared.css';
+
+.wrapper {
+    padding: 8px 24px;
+
+    td:after {
+        /* border-bottom: var(--border); */
+        border-color: var(--border-color);
+        clear: both;
+        content: '';
+        display: block;
+        height: 0px;
+        /* margin: var(--margin-v) auto; */
+        margin: 24px auto 16px auto;
+        width: var(--width);
+    }
+
+    .image {
+        float: left;
+        padding-right: 24px;
+        width: 160px;
+        img {
+            max-width: 100%;
+        }
+    }
+
+    p {
+        margin-top: 0;
+    }
+}

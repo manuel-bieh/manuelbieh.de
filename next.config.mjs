@@ -12,6 +12,18 @@ const nextConfig = {
         config.resolve.alias['react-dom'] = path.resolve('node_modules/react-dom');
         return config;
     },
+    redirects: async () => [
+        {
+            source: '/www/blog/:path*',
+            destination: 'https://2004.manuel-bieh.de/blog/:path*',
+            permanent: false,
+        },
+        {
+            source: '/blog/:path*',
+            destination: 'https://2004.manuel-bieh.de/blog/:path*',
+            permanent: false,
+        },
+    ],
 };
 
 export default nextConfig;

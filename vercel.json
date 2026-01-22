@@ -1,9 +1,14 @@
 {
-  "redirects": [
-    {
-      "source": "/blog/:path*",
-      "destination": "https://2004.manuel-bieh.de/blog/:path*",
-      "permanent": false
-    }
-  ]
+    "redirects": [
+        {
+            "source": "/www/blog/:path*",
+            "destination": "https://2004.manuel-bieh.de/blog/:path*",
+            "permanent": false
+        },
+        {
+            "source": "/blog/:path*",
+            "destination": "https://2004.manuel-bieh.de/blog/:path*",
+            "permanent": false
+        }
+    ]
 }
